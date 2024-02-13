@@ -95,6 +95,7 @@ export const Navbar = () => {
                 { href: "#products", label: "Products" },
                 { href: "#about-us", label: "About us" },
                 { href: "#kratki", label: "Where to buy" },
+                { href: "#contact", label: "Contact" },
               ].map((link) => (
                 <NavLink key={link.href} href={link.href} label={link.label} />
               ))}

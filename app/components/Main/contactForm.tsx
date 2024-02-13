@@ -73,7 +73,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="my-8 max-w-[600px] w-[90%] mx-auto">
+    <div id="contact" className="my-8 max-w-[600px] w-[90%] mx-auto">
       <p className="text-blue text-center text-2xl mini:text-3xl mt-10 mb-6 tracking-wide">
         get in touch
       </p>
