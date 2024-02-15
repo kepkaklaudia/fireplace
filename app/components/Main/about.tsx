@@ -9,7 +9,7 @@ export const About = () => (
         alt="Main picture"
         width={1831}
         height={1030}
-        className="w-full lg:w-[1800px] object-cover object-left"
+        className="w-full lg:w-[1800px] object-cover object-left h-[552px] lg:h-[705px] xl:h-[600px] 2xl:h-[520px]"
         src="/fireplace_winter.png"
       />
     </div>
