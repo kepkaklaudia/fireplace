@@ -14,7 +14,7 @@ export const Icons = () => {
     return (
       <div className="flex flex-col items-center gap-4 w-[95%] justify-self-center max-w-[250px]">
         <Icon className="text-blue w-16 h-auto stroke-1" />
-        <p className="font-semibold text-lg mini:text-xl text-blue tracking-wider">
+        <p className="font-semibold text-lg mini:text-xl text-blue tracking-wider text-center">
           {title}
         </p>
         <p className="text-center text-gray-500 tracking-wide">{text}</p>
