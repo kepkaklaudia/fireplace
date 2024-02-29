@@ -26,7 +26,7 @@ export const TextField = ({
         <label htmlFor={fieldName}>{label}</label>
         <input
           className={cn(
-            "border border-blue focus-visible:outline-none focus-visible:ring-blue focus-visible:ring-offset-1 focus-visible:ring-1 transition-colors p-1"
+            "border border-blue focus-visible:outline-none focus-visible:ring-blue focus-visible:ring-offset-1 focus-visible:ring-1 transition-colors px-3 py-2 placeholder:text-sm lg:placeholder:text-base"
           )}
           {...register(fieldName, {
             required: "This field is required",
