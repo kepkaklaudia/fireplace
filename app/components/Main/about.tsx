@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 export const About = () => (
-  <section className="bg-black flex w-full h-full  flex-col lg:flex-row">
+  <section className="bg-black flex w-full flex-col lg:flex-row">
     <div className="w-auto flex h-[552px] lg:h-[705px] xl:h-[600px] 2xl:h-[520px] self-end mx-auto order-1 lg:order-none my-auto">
       <Image
         alt="Main picture"
