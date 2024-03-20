@@ -6,7 +6,7 @@ import { TextareaField } from "@/app/components/Form/textareaField";
 import { CheckboxField } from "@/app/components/Form/checkboxField";
 import { TextField } from "@/app/components/Form/textField";
 import { validateEmail } from "@/app/components/Form/validateEmail";
-import { StyledModal } from "../Form/modal";
+import { StyledModal } from "@/app/components/Form/modal";
 
 export interface FormValues {
   [key: string]: string;
@@ -14,7 +14,7 @@ export interface FormValues {
 
 export const modalItems = [
   {
-    label: "FullName",
+    label: "Full Name",
     value: "fullName",
   },
   {
@@ -27,11 +27,10 @@ export const modalItems = [
   },
 ];
 
-
 export const ContactForm = () => {
-   const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
 
-   const [submittedFormValues, setSubmittedFormValues] =
+  const [submittedFormValues, setSubmittedFormValues] =
     useState<FormValues | null>(null);
 
   const {

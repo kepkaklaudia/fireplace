@@ -40,9 +40,7 @@ export const StyledModal = ({
           <DialogHeader>
             <DialogTitle className="text-xl text-left pb-4 border-solid border-alto border-b font-bold lg:text-2xl ">
               Thank you for contact with&nbsp;us
-              <p className="font-normal text-base">
-                {"The form has been sent"}
-              </p>
+              <p className="font-normal text-base">The form has been sent</p>
             </DialogTitle>
           </DialogHeader>
           <div className="flex flex-col gap-2 text-sm md:text-base">
