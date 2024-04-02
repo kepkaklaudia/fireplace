@@ -7,8 +7,8 @@ export const About = () => (
     <div className="w-auto flex h-[552px] self-end mx-auto order-1 lg:order-none my-auto">
       <Image
         alt="Main picture"
-        width={1080}
-        height={1298}
+        width={2000}
+        height={1052}
         className="w-full lg:max-w-[600px] object-cover object-left"
         src="/fireplace-2.jpg"
       />
