@@ -1,6 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "404 Not Found | ILDNORD",
+  description:
+    "The page you're looking for couldn't be found. It may have been moved or deleted. Return to the ILDNORD homepage to continue browsing.",
+};
+
 export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-items-center mt-20 px-6 text-center">
