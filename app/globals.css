@@ -28,6 +28,14 @@ html {
   height: 10px;
 }
 
+.focus-style-blue {
+  @apply border border-transparent focus-visible:outline-none focus-visible:border-blue transition-colors;
+}
+
+.focus-style-white {
+  @apply border border-transparent focus-visible:outline-none focus-visible:border-white transition-colors;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

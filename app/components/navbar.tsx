@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const linkStyle =
-    "block py-3.5 px-3 md:p-0 text-black hover:bg-blue hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-red transition-colors text-transform: uppercase text-sm transition-colors";
+    "block py-3.5 px-3 md:p-0 text-black hover:bg-blue hover:text-white md:hover:bg-transparent md:hover:text-red transition-colors text-transform: uppercase text-sm transition-colors focus-style-blue";
 
   const closeMenu = () => setIsMobileMenuOpen(false);
 
@@ -59,7 +59,7 @@ export const Navbar = () => {
         <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="#"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
+            className="flex items-center space-x-3 rtl:space-x-reverse focus-style-blue"
           >
             <Image
               src="/pagelogo.png"
