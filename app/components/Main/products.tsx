@@ -13,7 +13,7 @@ export const Products = () => (
     <p className="text-center mt-6 text-red max-w-[250px] mx-auto">
       Section in development – more&nbsp;fireplaces coming soon!
     </p>
-    <div className="flex flex-col sm:flex-row my-12 gap-y-16 sm:gap-8 justify-center">
+    <div className="flex flex-col sm:flex-row my-12 gap-y-16 sm:gap-x-16 justify-center">
       {[{ name: "loki" }, { name: "malmo" }].map((product) => (
         <div key={product.name} className="flex flex-col items-center gap-y-4">
           <Image
