@@ -1,6 +1,6 @@
-import { Navbar } from "@/app/navbar";
-import { Footer } from "@/app/footer";
-import { Main } from "@/app/main";
+import { Navbar } from "@/app/components/navbar";
+import { Footer } from "@/app/components/footer";
+import { Main } from "@/app/components/main";
 
 export default function Home() {
   return (
