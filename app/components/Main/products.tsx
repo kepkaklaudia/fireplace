@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 export const Products = () => (
-  <section className="flex flex-col my-4">
+  <section className="flex flex-col my-8 sm:my-12">
     <p className="text-blue text-center text-2xl mini:text-3xl mt-10 mb-6">
       see what we offer
     </p>
