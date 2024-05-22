@@ -23,7 +23,7 @@ export const Entry = () => (
         alt="Main picture"
         width={800}
         height={1000}
-        className="w-full md:w-auto h-full"
+        className="w-full md:w-auto md:min-w-[300px] lg:min-w-[450px] h-full"
         src="/main.png"
       />
     </div>
