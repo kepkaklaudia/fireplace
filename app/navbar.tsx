@@ -90,10 +90,14 @@ export const Navbar = () => {
             id="navbar-solid-bg"
           >
             <ul className="flex flex-col font-medium mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-              <NavLink href="#" label="Home" />
-              <NavLink href="#products" label="Products" />
-              <NavLink href="#about-us" label="About us" />
-              <NavLink href="#kratki" label="Where to buy" />
+              {[
+                { href: "#", label: "Home" },
+                { href: "#products", label: "Products" },
+                { href: "#about-us", label: "About us" },
+                { href: "#kratki", label: "Where to buy" },
+              ].map((link) => (
+                <NavLink key={link.href} href={link.href} label={link.label} />
+              ))}
             </ul>
           </div>
         </div>
