@@ -9,6 +9,16 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      mini: "380px",
+      xs: "420px",
+      sm: "576px",
+      md: "768px",
+      lg: "992px",
+      xl: "1200px",
+      "2xl": "1400px",
+      "3xl": "1920px",
+    },
     extend: {
       colors: {
         red: "#E41520",
