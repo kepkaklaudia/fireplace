@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const linkStyle =
-    "block py-3.5 px-3 md:p-0 text-black hover:bg-blue hover:text-white md:hover:bg-transparent md:hover:text-red transition-colors text-transform: uppercase text-sm transition-colors focus-style-blue";
+    "block py-3.5 px-3 md:p-0 text-black hover:bg-blue hover:text-white md:hover:bg-transparent md:hover:text-red transition-colors text-transform: uppercase text-sm transition-colors focus-style-blue tracking-wider";
 
   const closeMenu = () => setIsMobileMenuOpen(false);
 

@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export const Products = () => (
   <section id="products" className="flex flex-col my-8 sm:my-12">
-    <p className="text-blue text-center text-2xl mini:text-3xl mt-10 mb-6">
+    <p className="text-blue text-center text-2xl mini:text-3xl mt-10 mb-6 tracking-wide">
       see what we offer
     </p>
-    <p className="text-center text-4xl mini:text-5xl md:text-6xl">
+    <p className="text-center text-4xl mini:text-5xl md:text-6xl tracking-wide">
       Product range
     </p>
     <p className="text-center mt-6 text-red max-w-[250px] mx-auto">
@@ -23,7 +23,7 @@ export const Products = () => (
             className="w-11/12 mini:w-auto h-auto mini:max-h-[300px]"
             src={`/${product.name}.png`}
           />
-          <p className="font-bold text-3xl sm:text-4xl capitalize">
+          <p className="font-bold text-3xl sm:text-4xl capitalize tracking-wide">
             {product.name}
           </p>
         </div>

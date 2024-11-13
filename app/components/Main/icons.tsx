@@ -14,8 +14,10 @@ export const Icons = () => {
     return (
       <div className="flex flex-col items-center gap-4 w-[95%] justify-self-center max-w-[250px]">
         <Icon className="text-blue w-16 h-auto stroke-1" />
-        <p className="font-semibold text-lg mini:text-xl text-blue">{title}</p>
-        <p className="text-center text-gray-500">{text}</p>
+        <p className="font-semibold text-lg mini:text-xl text-blue tracking-wider">
+          {title}
+        </p>
+        <p className="text-center text-gray-500 tracking-wide">{text}</p>
       </div>
     );
   };
@@ -23,10 +25,10 @@ export const Icons = () => {
   return (
     <>
       <div className="flex flex-col items-center w-full">
-        <p className="text-blue font-semibold mt-16 sm:mt-20 mb-4 text-base md:text-lg">
+        <p className="text-blue font-semibold mt-16 sm:mt-20 mb-4 text-base md:text-lg tracking-wider">
           ILDNORD
         </p>
-        <p className="text-4xl mini:text-5xl md:text-6xl text-center">
+        <p className="text-4xl mini:text-5xl md:text-6xl text-center tracking-wide">
           Northern fire
         </p>
       </div>
