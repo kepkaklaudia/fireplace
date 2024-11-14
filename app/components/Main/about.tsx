@@ -4,12 +4,19 @@ import Image from "next/image";
 
 export const About = () => (
   <section className="bg-black flex w-full h-full  flex-col lg:flex-row">
-    <div className="w-auto flex h-fit self-end mx-auto order-1 lg:order-none">
+    <div className="w-auto flex h-fit self-end mx-auto order-1 lg:order-none my-auto">
       <Image
         alt="Main picture"
         width={1080}
         height={1298}
-        className="w-full max-w-[400px] lg:max-w-[600px]"
+        className="w-full max-w-[400px] lg:max-w-[600px] xs:hidden xl:block"
+        src="/fireplace.jpg"
+      />
+      <Image
+        alt="Main picture"
+        width={1080}
+        height={1298}
+        className="w-full hidden xs:block xl:hidden max-w-[400px] lg:max-w-[600px]"
         src="/fire.jpg"
       />
     </div>
