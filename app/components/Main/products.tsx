@@ -21,7 +21,7 @@ export const Products = () => (
             width={750}
             height={750}
             className="w-11/12 mini:w-auto h-auto mini:max-h-[300px]"
-            src={`/${product.name}.png`}
+            src={`/${product.name}-1.png`}
           />
           <p className="font-bold text-3xl sm:text-4xl capitalize tracking-wide">
             {product.name}
