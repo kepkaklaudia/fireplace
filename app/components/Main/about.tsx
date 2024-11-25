@@ -7,10 +7,10 @@ export const About = () => (
     <div className="w-auto flex h-[552px] self-end mx-auto order-1 lg:order-none my-auto">
       <Image
         alt="Main picture"
-        width={2000}
-        height={1052}
+        width={1831}
+        height={1030}
         className="w-full lg:max-w-[600px] object-cover object-left"
-        src="/fireplace_house.png"
+        src="/fireplace_winter.png"
       />
     </div>
     <div className="flex flex-col w-full my-auto px-4 py-12 gap-4">
